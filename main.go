@@ -1,6 +1,6 @@
 package main
 
-import "github.com/mateuszdyminski/how-not-to-write-go/logger"
+import "github.com/qfarm/bad-go-code/logger"
 
 func main() {
 	l, _ := logger.NewLogger("/tmp/test")
