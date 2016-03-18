@@ -1,8 +1,6 @@
 linters:
-    - aligncheck
     - deadcode
     - dupl
-    - errcheck
     - goconst
     - gocyclo
     - gofmt
@@ -12,13 +10,8 @@ linters:
     - ineffassign
     - interfacer
     - lll
-    - structcheck
-    - test
-    - testify
-    - varcheck
     - vet
     - vetshadow
-    - unconvert
 skipdirs:
     - skip-dir
 go: 1.6
